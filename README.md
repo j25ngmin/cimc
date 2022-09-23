@@ -1,4 +1,25 @@
-ue
+# 고객 문의 접수 및 답변 기능 개발
+ 
+### 개요
+고객 문의를 접수하고 상담사가 답변을 할 수 있는 프론트엔드 및 API 애플리케이션을 작성하는 과제입니다.
+
+
+### 프로젝트 설명
+* 환경 구성
+1. Vue version 3.2.13
+2. Node version 16.17.0
+2. 사용 툴 : VS Code, Terminal, Chrome
+
+* 소스 구조
+|-- README.md
+|-- package.json
+`-- src
+    |-- components
+    |   |-- Pagination.vue
+    |   `-- Table.vue
+    |-- views
+    |   `-- client
+    |       |-- InquiryView.vue
     |       `-- InquiryWrite.vue
     |   `-- counselor
     |       |-- AnswerView.vue
